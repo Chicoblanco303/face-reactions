@@ -6,7 +6,7 @@ This project uses a webcam to analyze facial landmarks and hand gestures, then d
 
 ## Project Preview
 
-![Face Reactions Demo](assets/screenshots/face_reactions_demo_no_video.png)
+Check the assets (screenshot sample)
 
 ## Features
 

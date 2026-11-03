@@ -5,7 +5,11 @@ import numpy as np
 import mediapipe as mp
 
 SHOW_DEBUG = True      # live numbers for tuning (set False when done)
-IMAGE_FOLDER = ""      # optional: r"C:\path\to\your\images"
+IMAGE_FOLDER = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "assets",
+    "images"
+)
 PANEL = 480
 W, H = 640, 480
 
